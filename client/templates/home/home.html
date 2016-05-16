@@ -1,0 +1,14 @@
+<template name="home">
+		{{> topic}}
+
+
+	{{#if currentUser}}
+		{{> dropzone}}
+	{{/if}}
+
+  {{#each images}}
+    {{> image}}
+  {{/each}}
+
+  {{> footer}}
+</template>
