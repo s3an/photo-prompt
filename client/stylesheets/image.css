@@ -1,19 +1,19 @@
 .image-info {
-  color: #888;
-  font-family: Rockwell,Georgia,Arial;
+  text-align: center;
+  color: #7f8c8d;
   font-size: 9px;
-  letter-spacing: 0.15em;
+  letter-spacing: 2px;
+  min-height: 25px;
   text-transform: uppercase;
-  background-color: #fff;
+  background-color: #a2cbb6 !important;
   display: block;
   padding: 4px;
   margin-bottom: 5px;
   line-height: 1.42857143;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-  -o-transition: border .2s ease-in-out;
-  transition: border .2s ease-in-out;
+  width: 76%;
+  margin-left: 12%;
+  border-radius: 0px !important;
+  border: none !important;
 }
 
 .delete-image {
@@ -22,4 +22,18 @@
 
 .delete-image:hover {
   text-decoration: none;
+}
+
+.thumbnail{
+  width: 76%;
+  margin-left: 12%;
+  background-color: #a2cbb6;
+  border: none;
+  border-radius: 0px;
+}
+
+.image-details{
+  position: relative;
+  color: black;
+  top: 4px;
 }

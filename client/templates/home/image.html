@@ -1,15 +1,17 @@
 <template name="image">
-  <!-- image info -->
+  <!-- Information about the image. PostDAte, User etc -->
   <div class="row">
     <div class="col-md-12">
       <div class="image-info">
+      <!-- Only allow the current user to delete the image -->
       {{#if ownImage}}
           <a class="delete-image">
             <i class="fa fa-trash fa-2x"></i>
           </a>
       {{/if}}
-        <span class="image-details">Posted on: {{postDate}} / 
-        Posted by: 
+        <span class="image-details">Posted on: {{postDate}} //
+        Posted by: // 
+        <!-- This allows us to view all of a certian users uploads -->
          <a class="user-link" href="{{pathFor route='userPage' username=this.username}}">
           {{username}}
         </a> </span>
@@ -17,7 +19,7 @@
     </div>
   </div>
 
-  <!-- the image -->
+  <!-- Where the image gets spit back out -->
   <div class="image-div"> 
     <div class="row">
       <div class="col-md-12">

@@ -45,6 +45,7 @@ body {
 }
 .dropdown-toggle{
 	color: #a7ebae !important;
+	letter-spacing: 2px;
 }
 .nav-container a{
 	color: #a7ebae;
@@ -70,38 +71,6 @@ body {
 	border: none;
 	border-radius: 0px;
 	text-align: center;
-}
-
-.image-info {
-  text-align: center;
-  color: #7f8c8d;
-  font-size: 9px;
-  letter-spacing: 2px;
-  min-height: 25px;
-  text-transform: uppercase;
-  background-color: #a2cbb6 !important;
-  display: block;
-  padding: 4px;
-  margin-bottom: 5px;
-  line-height: 1.42857143;
-  width: 76%;
-  margin-left: 12%;
-  border-radius: 0px !important;
-  border: none !important;
-}
-
-.thumbnail{
-	width: 76%;
-	margin-left: 12%;
-	background-color: #a2cbb6;
-	border: none;
-	border-radius: 0px;
-}
-
-.image-details{
-	position: relative;
-	color: black;
-	top: 4px;
 }
 
 #login-buttons-open-change-password{
@@ -183,4 +152,9 @@ body {
 	color: #a7ebae;
 	letter-spacing: 3px;
 	padding: 10px;
+}
+
+.aboutTag{
+	color: #a7ebae !important;
+	letter-spacing: 3px;
 }

@@ -1,11 +1,13 @@
+<!-- This home template contains all the other temaplates used in the home module.
+      The home module is defined within the layout.html-->
 <template name="home">
 		{{> topic}}
 
-
+	<!-- Only show current users the dropzone-->
 	{{#if currentUser}}
 		{{> dropzone}}
 	{{/if}}
-
+	 <!-- For each image in images return and image template (image.html) -->
   {{#each images}}
     {{> image}}
   {{/each}}

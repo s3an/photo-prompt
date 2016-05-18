@@ -4,6 +4,7 @@
       <div class="navbar-header">        
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">          
           <span class="sr-only">Toggle navigation</span>          
+          <!-- Psuedo Hamburger menu -->
           <span class="icon-bar"></span>          
           <span class="icon-bar"></span>          
           <span class="icon-bar"></span>        
@@ -11,12 +12,17 @@
         <span class="title-text">       
         <div class="titleNavDiv">
         <a class="titleNav navbar-brand" href="{{pathFor 'home'}}">PhotoPrompt</a>
+        <!-- Font awesome camera icon-->
         <i class="fa fa-camera fa-2x camera-icon"></i>
         </div>
         </span>    
       </div>      
       <div class="collapse navbar-collapse" id="navigation">        
-        <ul class="nav navbar-nav navbar-right">           {{> loginButtons}}    
+        <ul class="nav navbar-nav navbar-right">           
+        <!-- using accounts-bootstrap for login functionality
+             This also contains oAuth once the given packages are installed -->
+        <li> {{> loginButtons}}  </li>
+        <!-- <li> <a href="{{pathFor 'about'}}" class="aboutTag">About</a></li>   -->
         </ul>      
       </div>    
     </div>  
