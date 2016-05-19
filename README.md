@@ -1,4 +1,4 @@
-# A simple Meteor Photo Blog
+# Meteor JS Built Photo-taking/uploading Application for N.C.I Final year project.
 
 A simple application, demonstrating file uploads to Amazon S3 in Meteor while giving the user a photo topic. All done in real time,
 with account login through native functionality, Oauth through Facebook and Google.
