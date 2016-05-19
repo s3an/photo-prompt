@@ -2,8 +2,20 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+@media only screen and (max-width:399px) {
+	.camera-icon{
+	font-size: 20px;
+    margin-top: 6%;
+    margin-left: -4%;
+	}
+	.titleNav{
+	letter-spacing: 3px !important;
+	font-size: 24px !important;
+	}
+}
+
 body {
-	background-color: #61666b;
+	background-color:#61666b;
     color: #666666; 
 }
 
@@ -52,6 +64,12 @@ body {
 	font-weight: 200;
 	font-style: bold;
 	letter-spacing: 2px;
+}
+
+@media only screen and (min-width:768px) {
+	.dropdown{
+		margin-top: 22%;
+	}
 }
 
 .drop-style{

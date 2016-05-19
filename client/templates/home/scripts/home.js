@@ -11,7 +11,7 @@ Template.home.created = function() {
   Tracker.autorun(function() {
     //This suscribes to the publication 'images'
     //This allows me to check the server information for the limit and the username
-    Meteor.subscribe('images', self.limitValue.get(), Router.current().params.username);
+    Meteor.subscribe('images', self.limitValue.get(), Router.current().params.username, Router.current().params.cTopic);
   });
 }
 
@@ -35,7 +35,7 @@ Template.home.helpers({
 });
 
 // A function to increment the limit of returns based on the current template instance
-// This means if yyou were on the home screen and called it it would increment everyones
+// This means if you were on the home screen and called it it would increment everyones
 // IMages but if you were on your username homescreen it would just incremenet as many as you
 // have.
 var increment = function(templateInstance) {

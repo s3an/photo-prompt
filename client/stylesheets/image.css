@@ -30,10 +30,23 @@
   background-color: #a2cbb6;
   border: none;
   border-radius: 0px;
+  margin-top: 1%;
 }
 
 .image-details{
   position: relative;
   color: black;
   top: 4px;
+}
+
+.topic-information{
+  color: #a7ebae;
+  text-align: center;
+  margin-left: 12%;
+  letter-spacing: 2px;
+}
+
+.topic-text{
+  margin-left: 9%;
+  color: #e8dc55;
 }

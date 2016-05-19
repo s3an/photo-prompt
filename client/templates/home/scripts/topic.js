@@ -5,20 +5,20 @@ Template.topic.rendered = function() {
 
 //Init a word array
       var wordArray = [
-      'words', //0
-      'test',  //1
-      'coffee', //2
-      'code',  //3
-      'friends', //4
-      'nature', //5
-      'clouds', //6
-      'animals', //7
-      'water', //8 
-      'buildings', //9
-      'cities', //10
-      'green', //11
-      'red', //12
-      'blue' //13
+      'Words', //0
+      'Test',  //1
+      'Coffee', //2
+      'Code',  //3
+      'Friends', //4
+      'Nature', //5
+      'Clouds', //6
+      'Animals', //7
+      'Water', //8 
+      'Buildings', //9
+      'Cities', //10
+      'Green', //11
+      'Red', //12
+      'Blue' //13
       ];
       
       //Instansiating a date object
