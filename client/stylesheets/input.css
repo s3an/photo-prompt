@@ -23,13 +23,16 @@
     display : inline-block;
     width : 50%;
     height : 35%;
-    margin-left: 20%;
+    margin-left: -26%;
     background-color : #a2cbb6;
     letter-spacing: 2px;
     color: #61666b;
     text-decoration : none;
     line-height : 38px;
     text-align : center;
+    margin-top: 3%;
+    border: 1px solid #61666b;
+
 }
 
 #input {
