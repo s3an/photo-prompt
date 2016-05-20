@@ -39,6 +39,22 @@ body {
 	color: #e74c3c;
 }
 
+.like-image{
+	color: #e74c3c;
+	float: right;
+	margin-right: 3%;
+	text-decoration: none;
+	margin-top: 1%;
+}
+
+.like-image:hover{
+	color: #e8dc55;
+}
+
+.like-counter{
+	color: #61666b;
+}
+
 .title-text{
 	color: #a73bae;
 }
@@ -139,7 +155,7 @@ body {
 	font-size: 20px;
 	/*margin-left: 40%;*/
 	letter-spacing: 2px;
-	color: #e8dc55;
+	color: #61666b;
 	/*text-align: center;*/
 }
 
