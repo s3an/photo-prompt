@@ -71,5 +71,10 @@ Template.image.events({
         }
       })
     }
+  },
+
+  'click .like-image': function(e){
+    e.preventDefault();
+    console.log('You like this image');
   }
 });
